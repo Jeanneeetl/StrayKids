@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP2</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/global.css">
+</head>
+<body id="top">
+   <header>
+        <section class="menu">
+            <nav>
+                <ul>
+                <li>
+                    <a href="#" id="menu1">Menu</a>
+                    <ul>
+                        <li><a href="#pageAccueil">Accueil</a></li>
+                        <li><a href="#inscription">Inscription</a></li>
+                        <li><a href="#tableau">Tableau</a></li>
+                        <li><a href="#article">Article</a></li>
+                        <li><a href="#galerie">Galerie</a></li>
+                    </ul>
+                </li>
+                </ul>
+            </nav>
+        </section>
+
+        <section class="logo">
+            <img src="images/logo.png" alt="Une image">
+        </section>
+
+        <section class="grosTitre">
+            <h1>StrayKids</h1>
+        </section>
+
+        <section class="recherche">
+            <input type="text" placeholder="Rechercher...">
+            <button>&#128269;</button>
+        </section>
+    </header> 
+
+    <div id="pageAccueil">
+        <h2>Accueil</h2>
+        <div id="accueil">
+            <div id="acc">
+                <p id="tp">TP2</p>
+                <p id="titre">StrayKids</p>
+                <p id="nom">Jeanne Thiboutot-Lessard</p>
+                <p id="cours">582-1W1 – Mise en page Web</p>
+                <p id="programme">Techniques d’intégration multimédia</p>
+                <p id="ecole">Collège de Maisonneuve</p>
+                <p id="git">https://Jeanneeetl.github.io/StrayKids/</p>
+                <p id="date">Automne 2023</p>
+            </div>
+            <div id="images">
+                <img src="images/seasonGreeting.jpg" alt="Une image">
+            </div>
+        </div>
+    </div>
+
+    <div id="inscription"> 
+        <h2>Inscription</h2>
+            <form>
+                <fieldset class="colonne">
+                    <fieldset id="identification">
+                        <legend>Identification</legend>
+                        <label>Nom:
+                            <input type="text" placeholder="Écrire ici" required>
+                        </label>
+                        <label>Courriel:
+                            <input type="email" placeholder="Écrire ici" required>
+                        </label>
+                        <label>Âge:
+                            <input type="number" min="0" max="150" placeholder="Écrire ici" required>
+                        </label>
+                    </fieldset>
+                    <img src="images/Straykids.jpg" alt="UneImage">
+                </fieldset>
+                
+                <fieldset class="colonne"> 
+                    <fieldset>
+                        <label>Chanson préférée de StrayKids:
+                            <input type="tel" placeholder="Écrire ici" required>
+                        </label>  
+                    <label>Bias dans StrayKids
+                        <select>
+                            <option value="1">Bangchan</option>
+                            <option value="2">Lee Know</option>
+                            <option value="3">Changbin</option>
+                            <option value="4">Hyunjin</option>
+                            <option value="5">Han</option>
+                            <option value="6">Felix</option>
+                            <option value="7">Seungmin</option>
+                            <option value="8">I.N.</option>
+                        </select>
+                    </label>
+                    </fieldset>
+                    <fieldset class="leVote">
+                        <legend>Est-ce que StrayKids est votre groupe préféré ?</legend>
+                        <label> <input type="radio" name="vote"><span></span>Oui</label>
+                        <label> <input type="radio" name="vote"><span></span>Non</label>
+                    </fieldset>
+                    <fieldset class="lesOptions">
+                        <legend>Cochez votre/vos bias wrecker(s)</legend>
+                        <label> <input type="checkbox">Bangchan</label>
+                        <label> <input type="checkbox">Lee Know</label>
+                        <label> <input type="checkbox">Changbin</label>
+                        <label> <input type="checkbox">Hyunjin</label>
+                        <label> <input type="checkbox">Han</label>
+                        <label> <input type="checkbox">Felix</label>
+                        <label> <input type="checkbox">Seungmin</label>
+                        <label> <input type="checkbox">I.N.</label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Laissez un message à StrayKids</legend>
+                        <textarea rows="10">
+                        </textarea>
+                    </fieldset>
+                    <fieldset class="lesBoutons">
+                        <input type="reset">
+                        <input type="submit">
+                    </fieldset>
+                </fieldset>
+            </form>
+           
+    </div>
+        <div id="tableau">
+            <h2>Tableau</h2>
+            <table class="tableau">
+                <caption>
+                    <details>
+                        <summary> Discographie</summary>
+                        Albums de StrayKids 2018-2023
+                    </details>
+                </caption>
+                    <colgroup>
+                        <col span="1" class="bleu">
+                        <col span="4">
+                    </colgroup>
+            <thead>
+                <tr>
+                    <th>Titre</th>
+                    <th>Date de sortie</th>
+                    <th>Chanson principale</th>
+                    <th>Nombre de ventes (Corée du Sud)</th>
+                    <th>Vues youtube (vidéoclip principal)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Mixtape</th>
+                    <td>Janvier 2018</td>
+                    <td>Hellevator</td>
+                    <td>169 000</td>
+                    <td>110 millions</td>
+                </tr>
+                <tr>
+                    <th>I Am Not</th>
+                    <td>Mars 2018</td>
+                    <td>District 9</td>
+                    <td>306 000</td>
+                    <td>66 millions</td>
+                </tr> 
+                <tr>
+                    <th>I Am Who</th>
+                    <td>Août 2018</td>
+                    <td>My Pace</td>
+                    <td>284 000</td>
+                    <td>117 millions</td>
+                </tr>
+                <tr>
+                    <th>I Am You</th>
+                    <td>Octobre 2018</td>
+                    <td>I Am You</td>
+                    <td>315 000</td>
+                    <td>51 millions</td>
+                </tr>
+                <tr>
+                    <th>Clé 1 - Miroh</th>
+                    <td>Mars 2019</td>
+                    <td>MIROH</td>
+                    <td>354 000</td>
+                    <td>181 millions</td>
+                </tr>
+                <tr>
+                    <th>Clé 2 - Yellow Wood</th>
+                    <td>Juin 2019</td>
+                    <td>Side Effects</td>
+                    <td>266 000</td>
+                    <td>72 millions</td>
+                </tr>
+                <tr>
+                    <th>Clé - Levanter</th>
+                    <td>Décembre 2019</td>
+                    <td>Double Knot</td>
+                    <td>427 000</td>
+                    <td>76 millions</td>
+                </tr>
+                <tr>
+                    <th>Go Live</th>
+                    <td>Juin 2020</td>
+                    <td>God's Menu</td>
+                    <td>700 000</td>
+                    <td>435 millions</td>
+                </tr>
+                <tr>
+                    <th>In Life</th>
+                    <td>Septembre 2020</td>
+                    <td>Back Door</td>
+                    <td>768 000</td>
+                    <td>338 millions</td>
+                </tr>
+                <tr>
+                    <th>No Easy</th>
+                    <td>Août 2021</td>
+                    <td>Thunderous</td>
+                    <td>1 730 000</td>
+                    <td>338 millions</td>
+                </tr>
+                <tr>
+                    <th>Christmas EveL</th>
+                    <td>Novembre 2021</td>
+                    <td>Christmas EveL</td>
+                    <td>862 000</td>
+                    <td>142 millions</td>
+                </tr>
+                <tr>
+                    <th>Oddinary</th>
+                    <td>Mars 2022</td>
+                    <td>Maniac</td>
+                    <td>1 890 000</td>
+                    <td>220 millions</td>
+                </tr>
+                <tr>
+                    <th>Maxident</th>
+                    <td>Octobre 2022</td>
+                    <td>Case 143</td>
+                    <td>3 500 000</td>
+                    <td>220 millions</td>
+                </tr>
+                <tr>
+                    <th>5-Star</th>
+                    <td>Juin 2023</td>
+                    <td>S-CLass</td>
+                    <td>5 240 000</td>
+                    <td>155 millions</td>
+                </tr>
+                <tr>
+                    <th>Rock-Star</th>
+                    <td>Novembre 2023</td>
+                    <td>LaLaLa</td>
+                    <td>5 240 000</td>
+                    <td>138 millions</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="5">Données en date du 30/11/23</td>
+                </tr>
+            </tfoot>   
+            </table>       
+    </div>
+    <div id="article">
+        <h2>Article</h2>
+        <div id="article3">
+        <div id="colonne1">
+            <h3>Création du groupe StrayKids</h3>
+            <p> Le groupe sud-coréen StrayKids, originaire de Séoul, a été formé en 2017 par la compagnie coréenne JYP Entertainement lors de l'émission de télé-réalité appelée StrayKids. Le groupe gagne la compétition et débute officiellement le 26 mars 2018. Le groupe est composé de 8 membres, soit le leader BangChan et ses 7 autres membres (Lee Know, Changbin, Hyunjin, Han, Felix, Seungmin et I.N). Ils ne cessent de monter en popularité et sont devenus aujourd'hui l'un des plus populaires groupes de K-pop de l'histoire de la pop coréenne.</p>
+            <img src="images/danceracha.jpg" alt="UneImage">
+        </div>
+        <div id="colonne2">
+            <h3>Membres du groupe</h3>
+            <p> Le groupe est composé de 8 membres. Leur leader est BangChan (Christopher Banhg). Il est d'origine coréenne, mais a habité presque toute sa vie en Australie avant de faire les auditions pour JYP Entertainement. BangChan est le producteur du groupe, en plus d'être chanteur et danseur. Il écrit, produit et compose toutes les chansons du groupe. Il rend StrayKids le seul groupe de K-pop à être derrière l'entièreté de la production de leur musique. Il fait partie de la sous-unité 3Racha avec Han Jisung et Seo Changbin. Ils sont les producteurs et principaux rappeurs du groupe. Vient ensuite la sous-unité DanceRacha. Elle est composée de Hyunjin, Lee Know et Lee Felix. En plus d'être chanteurs dans le groupe, ils sont les principaux danseurs. Ils créent les chorégraphies pour les chansons de StrayKids. Finalement, il y a l'unité VocalRacha, composée de Seungmin et Jeongin (I.N). Ils sont considérés comme les chanteurs principaux du groupe. </p>
+            <img src="images/3racha.jpg" alt="UneImage">
+        </div>
+        <div id="colonne3">
+            <h3>Record du nouvel album Rock-Star</h3>
+            <p> En effet, en pleine ascension, le groupe coréen StrayKids bat des records. Suite à la sortie de leur nouvel album Rock-Star, en novembre 2023, le groupe gagne de nombreux prix. De plus, StrayKids dépasse des chanteurs américains connus en terme de ventes et de nombre d'écoute. Sur le Billboard 200 (Classement officiel des ep / albums les plus vendus et écoutés aux États-Unis), 1989 (Taylor's Version)" de Taylor Swift, tombe au rang n°2, tandis que l'auteur-compositeur-interprète Chris Stapleton ouvre au n°3 avec "Higher". « For All the Dogs » de Drake est n°4 et « One Thing at a Time » de Wallen est le n°5. StrayKids se hisse ainsi au premier rang du Billboard 200. StrayKids est aujourd'hui le premier groupe de K-pop et le premier groupe depuis One Direction à avoir fait débuter tous leurs 4 derniers albums au premier rang du Billboard 200. StrayKids est le groupe le plus rapide de tous les temps à atteindre ce record, battant One Direction de 1 an et 8 mois.</p>
+            <img src="images/vocalracha.jpg" alt="UneImage">
+        </div> 
+        </div>  
+    </div>
+
+    <div id="galerie">
+        <div>
+        <h2>Galerie</h2>
+        </div>
+        <div id="skz">
+            <figure>
+            <img src="images/bangchan.jpg" alt="UneImage">
+            <figcaption> BangChan </figcaption>
+            </figure>
+            <figure>
+            <img src="images/leeknow.jpg" alt="UneImage">
+            <figcaption> Lee Know </figcaption>
+            </figure>
+            <figure>
+            <img src="images/changbin.jpg" alt="UneImage">
+            <figcaption> Changbin </figcaption>
+            </figure>
+            <figure>
+            <img src="images/hyunjin.jpg" alt="UneImage">
+            <figcaption> Hyunjin </figcaption>
+            </figure>
+            <figure>
+            <img src="images/han.jpg" alt="UneImage">
+            <figcaption> Han </figcaption>
+            </figure>
+            <figure>
+            <img src="images/felix.jpg" alt="UneImage">
+            <figcaption> Felix </figcaption>
+            </figure>
+            <figure>
+            <img src="images/Seungmin.jpg" alt="UneImage">
+            <figcaption> Seungmin </figcaption>
+            </figure>
+            <figure>
+            <img src="images/in.jpg" alt="UneImage">
+            <figcaption> I.N </figcaption>
+            </figure>
+        </div>
+    </div>
+
+    <footer>
+        <div id="texte">
+        <div id="gauche">
+            <h6 id="reseaux"> Réseaux sociaux </h6>
+            <h6> Instagram: @strayk_ </h6>
+            <h6> Facebook: @skz_JYP </h6>
+        </div>
+        <div id="droite">
+            <h6> Collège de Maisonneuve - 3800 rue Sherbrooke E, Montréal </h6>
+            <h6> TIM 2023 </h6>
+            <h6> Avis de confidentialité | Privacy Notice</h6>  
+            <h6> Source des images: pinterest.com </h6> 
+        </div>
+        </div>
+    </footer>
+
+</body>
+</html>
